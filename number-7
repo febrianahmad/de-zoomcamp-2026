@@ -1,0 +1,14 @@
+Question 7. Which of the following sequences describes the Terraform workflow for: 1) Downloading plugins and setting up backend, 2) Generating and executing changes, 3) Removing all resources?
+
+Terraform lifecycle:
+Initialize (init) the working directory and providers.
+Generate & execute (apply) infrastructure changes, -auto-approve skips confirmation and executes immediately.
+Cleanup (destroy) managed infrastructure.
+
+SO THE ANSWER ACCORDING TO THE TERRAFORM LIFECYCLE ABOVE IS...
+
+terraform import, terraform apply -y, terraform destroy
+teraform init, terraform plan -auto-apply, terraform rm
+terraform init, terraform run -auto-approve, terraform destroy
+terraform init, terraform apply -auto-approve, terraform destroy (the answer)
+terraform import, terraform apply -y, terraform rm
