@@ -1,0 +1,35 @@
+Question 1. Q1: dbt run --select int_trips_unioned builds which models? (1 point)
+A) stg_green_tripdata, stg_yellow_tripdata, and int_trips_unioned
+B) Any model with upstream and downstream dependencies
+C) int_trips_unioned only ✅
+D) int_trips_unioned, int_trips, and fct_trips
+
+Question 2. Q2: New value 6 appears in payment_type. What happens on dbt test? (1 point)
+A) dbt skips the test
+B) dbt fails the test with non-zero exit code ✅
+C) dbt passes with warning
+D) dbt updates the configuration
+
+Question 3. Q3: Count of records in fct_monthly_zone_revenue? (1 point)
+A) 12,998
+B) 14,120
+C) 12,184 ✅
+D) 15,421
+
+Question 4. Q4: Zone with highest revenue for Green taxis in 2020? (1 point)
+A) East Harlem North ✅
+B) Morningside Heights
+C) East Harlem South
+D) Washington Heights South
+
+Question 5. Q5: Total trips for Green taxis in October 2019? (1 point)
+A) 500,234
+B) 350,891
+C) 384,624 ✅
+D) 421,509
+
+Question 6. Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)? (1 point)
+A) 42,084,899
+B) 43,244,693 ✅
+C) 22,998,722
+D) 44,112,187
